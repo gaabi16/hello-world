@@ -61,6 +61,12 @@ build CMakeFiles/hello_world.dir/money.c.obj: C_COMPILER__hello_world_unscanned_
   OBJECT_DIR = CMakeFiles\hello_world.dir
   OBJECT_FILE_DIR = CMakeFiles\hello_world.dir
 
+build CMakeFiles/hello_world.dir/mihai.c.obj: C_COMPILER__hello_world_unscanned_Debug D$:/facultate$ -$ licenta/Anul$ 1/Semestrul$ 2/Proiectarea$ algoritmilor$ (PA)/test/hello_world/mihai.c || cmake_object_order_depends_target_hello_world
+  DEP_FILE = CMakeFiles\hello_world.dir\mihai.c.obj.d
+  FLAGS = -g -std=gnu11 -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\hello_world.dir
+  OBJECT_FILE_DIR = CMakeFiles\hello_world.dir
+
 
 # =============================================================================
 # Link build statements for EXECUTABLE target hello_world
@@ -69,7 +75,7 @@ build CMakeFiles/hello_world.dir/money.c.obj: C_COMPILER__hello_world_unscanned_
 #############################################
 # Link the executable hello_world.exe
 
-build hello_world.exe: C_EXECUTABLE_LINKER__hello_world_Debug CMakeFiles/hello_world.dir/main.c.obj CMakeFiles/hello_world.dir/money.c.obj
+build hello_world.exe: C_EXECUTABLE_LINKER__hello_world_Debug CMakeFiles/hello_world.dir/main.c.obj CMakeFiles/hello_world.dir/money.c.obj CMakeFiles/hello_world.dir/mihai.c.obj
   FLAGS = -g
   LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
   OBJECT_DIR = CMakeFiles\hello_world.dir
