@@ -3,5 +3,4 @@ project(hello_world C)
 
 set(CMAKE_C_STANDARD 11)
 
-add_executable(hello_world main.c
-        money.c)
+add_executable(hello_world main.c money.c mihai.c)

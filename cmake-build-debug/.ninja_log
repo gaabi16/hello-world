@@ -1,0 +1,5 @@
+# ninja log v5
+2	76	7355090452042591	CMakeFiles/hello_world.dir/mihai.c.obj	17e61c6c3b68472b
+0	474	7355090308101712	CMakeFiles/hello_world.dir/money.c.obj	72d9825a3c74ec02
+6	475	7355090308101712	CMakeFiles/hello_world.dir/main.c.obj	26b63f661701a018
+1	137	7355091012427832	build.ninja	a9ffa570f45d4518
